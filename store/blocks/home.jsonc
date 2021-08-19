@@ -3,7 +3,7 @@
     "blocks": ["tab-layout#home"]
   },
   "tab-layout#home": {
-    "children": ["tab-list#home", "tab-content#home"]
+    "children": ["tab-list#home", "tab-content#home", "info-card"]
   },
   "tab-list#home": {
     "children": [
@@ -97,6 +97,13 @@
       "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
       "textPosition": "CENTER",
       "font": "t-heading-3"
+    }
+  },
+  "info-card": {
+    "props": {
+      "id":"info-card#1",
+      "isFullStyleMode": true,
+      "imageUrl": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T031407Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a64d52335d47e465933f0e6a1092b5b09460a554d3f3f816719e4fdeba0a8e8b"
     }
   }
 }
