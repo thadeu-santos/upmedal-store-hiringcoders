@@ -10,10 +10,8 @@
       "tab-list.item#home1", 
       "tab-list.item#home2", 
       "tab-list.item#home3", 
-      "tab-list.item#home4", 
-      "tab-list.item#home5",
-      "tab-list.item#home6",
-      "tab-list.item#home7"      
+      "tab-list.item#home4"
+      
     ]
   },
   "tab-list.item#home1": {
@@ -41,33 +39,13 @@
       "tabId": "signos"
     }
   },
-  "tab-list.item#home5": {
-    "props": {
-      "label": "Divertidos",
-      "tabId": "divertidos"
-    }
-  },
-  "tab-list.item#home6": {
-    "props": {
-      "label": "7 Maravilhas",
-      "tabId": "seteMaravilhas"
-    }
-  },
-  "tab-list.item#home7": {
-    "props": {
-      "label": "Guereiros",
-      "tabId": "guerreiros"
-    }
-  },
   "tab-content#home": {
     "children": [
       "tab-content.item#home1", 
       "tab-content.item#home2", 
       "tab-content.item#home3", 
-      "tab-content.item#home4", 
-      "tab-content.item#home5", 
-      "tab-content.item#home6", 
-      "tab-content.item#home7"]
+      "tab-content.item#home4"
+      ]
   },
   "tab-content.item#home1": {
     "children": ["rich-text#home1"],
@@ -81,6 +59,18 @@
       "tabId": "corinthians"
     }
   },
+  "tab-content.item#home3": {
+    "children": ["rich-text#home3"],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#home4": {
+    "children": ["rich-text#home4"],
+    "props": {
+      "tabId": "signos"
+    }
+  },
   "rich-text#home1": {
     "props": {
       "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
@@ -89,6 +79,20 @@
     }
   },
   "rich-text#home2": {
+    "props": {
+      "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home3": {
+    "props": {
+      "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home4": {
     "props": {
       "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
       "textPosition": "CENTER",
