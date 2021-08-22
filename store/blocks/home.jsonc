@@ -119,8 +119,8 @@
   "image#1": {
     "props":{
       "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T191110Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=5e53f0005f4c80c07e8547f560354a6879bb844425c26f0c66b679906acf72b5",
-      "maxWidth":600,
-      "maxHeight":200
+      "maxWidth":"600",
+      "maxHeight":"200"
     }
   },
 
@@ -153,7 +153,7 @@
       "querySchema": {
         "mapField": "fq",
         "queryField": "kit-upmedal/promocao",
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip",
         "maxItemPerPage": 10
       }
@@ -165,7 +165,7 @@
       "querySchema": {
         "mapField": "fq",
         "queryField": "kit-upmedal/palmeiras",
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
@@ -176,7 +176,7 @@
       "querySchema": {
         "mapField": "fq",
         "queryField": "kit-upmedal/signos",
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
@@ -188,7 +188,7 @@
       "querySchema": {
         "mapField": "fq",
         "queryField": "kit-upmedal/guerreiros",
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
